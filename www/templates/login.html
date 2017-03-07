@@ -1,0 +1,30 @@
+
+<ion-view title="Login" >
+  <ion-content padding="false" class="has-header has-footer" style="background-color:#f3f3f3;">
+  	
+
+<div style="width:85%;text-align:center;margin:auto;padding:20px;">
+	<button class="button icon-left ion-social-facebook button-positive button-block" ng-click="FBlogin()">Login With Facebook</button>
+
+</div>
+
+<p style="text-align:center;padding-bottom:20px;">or</p>
+
+
+ <label class="item item-input">
+    <i class="icon ion-email"></i><input id="login_email" type="email" placeholder="Email" style="padding-left:10px;">
+  </label>
+  <label class="item item-input">
+    <i class="icon ion-locked"></i><input id="login_password" type="password" placeholder="Password" style="padding-left:10px;">
+  </label>
+<button class="button button-calm button-clear button-block" style="margin-top:10px;" ui-sref="signup">Create an Account</button>
+<h5 style="text-align:center;margin:10px;" ng-click="modal.show();">Forgot Password? </h5>
+
+
+
+
+  </ion-content>
+<div class="bar bar-footer bar-calm">
+  <div class="title" ng-click="login();">Login</div>
+</div>
+</ion-view>
